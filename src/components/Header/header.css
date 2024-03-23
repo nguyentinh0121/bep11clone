@@ -1,0 +1,18 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.headerList{
+    display: flex;
+    gap: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.headerList .headerLink,
+.headerContainer .headerLink {
+    text-decoration: none;
+    color: black;
+}
